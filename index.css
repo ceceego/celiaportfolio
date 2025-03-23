@@ -1,0 +1,219 @@
+@import "tailwindcss";
+
+*{
+    /* background*/
+    background-color: #F2E5F9 !important;
+    margin: 0;
+    padding: 0;
+    font-family: "Balsamiq Sans", sans-serif;
+
+}
+span{
+    color: #9b4cc6;
+}
+
+
+hr{
+    height: 10px;
+    background-color: #c992e7 !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important; 
+}
+.name{
+    width: 100%;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    margin-left: 10px;
+
+}
+nav div ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+nav div ul li a{
+    color: black;
+    text-decoration: none;
+
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+
+    position: center;
+    margin-right: 10px;
+}
+
+
+
+
+.mainBody{
+    display: flex;
+    justify-content: center;
+}
+.mainBody {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 0;
+}
+.coverPhoto{
+    background-color: #F2E5F9;
+
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+.location{
+    justify-self: center;
+}
+.informationContainer{
+
+    width: 400px;
+    height: 200px;
+
+
+    padding: 20px;
+  
+    border-radius: 12px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcomeText{
+    font-family: "Balsamiq Sans", sans-serif;
+    text-transform:uppercase;
+    line-height: 20px;
+
+
+    margin-bottom: 20px;
+    margin-left: 10px;
+
+    
+}
+
+.projects{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.prevWork_cards {
+    display: flex; 
+    gap: 16px;
+    justify-content: space-between; 
+    
+}
+
+.card1, .card2,.card3 {
+    flex: 1; /* this line was helped out by DeepSeek AI*/
+    overflow: hidden; /* this line was helped out by DeepSeek AI*/
+
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    background-color: #e8cbf7 !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    margin-bottom: 25px;
+
+    width: 500px;
+    height: 500px;
+
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    width: 100%;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-size: 18px;
+   
+}
+
+.card1 h2, .card2 h2,.card3 h2{
+    background-color: #e8cbf7 !important;  
+}
+
+.card1 li, .card2 li,.card3 li{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #e8cbf7 !important;  
+    
+}
+
+.card1 span, .card2 span,.card3 span{
+    background-color: #e8cbf7 !important;  
+}
+
+.card1 ul, .card2 ul,.card3 ul, .card3 p{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #e8cbf7 !important;     
+}
+
+
+
+.card1 h2, .card1 p, .card1 ul, 
+.card2 h2, .card2 p, .card2 ul {
+    transition: opacity 0.3s ease; 
+    transition: filter 0.5s ease;
+
+}
+.card1:hover h2, .card1:hover p, .card1:hover ul,
+.card2:hover h2, .card2:hover p, .card2:hover ul {
+    opacity: 0;
+}
+
+.card1:hover {
+    background-image: url('project1.png'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.card2:hover {
+    background-image: url(project2.png); 
+    background-size: cover; 
+    background-position: left 0px 10px;
+}
+
+.contact{
+    height: 100px;
+    width: 100px;
+}
+
+   /* Center the container */
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+/* Style the LinkedIn icon */
+.linkedin img {
+    width: 75px;
+    height: 75px;
+    transition: transform 0.3s ease; 
+    margin-right: 40px;
+}
+
+.linkedin img:hover {
+    transform: scale(1.1); 
+}
+
+.xiaoHongShu img {
+    width: 45px;
+    height: 45px;
+    transition: transform 0.3s ease; /* Add a hover effect */
+}
+
+.xiaoHongShu img:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
